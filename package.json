@@ -1,0 +1,49 @@
+{
+  "name": "balink",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "create-use-effect": "^0.1.0",
+    "i18next": "^21.4.1",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "proxy": "https://www.metaweather.com/api/location/44418/",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-use-state": "^1.1.0",
+    "react-i18next": "^9.0.10",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typeface-abel": "^1.1.13",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

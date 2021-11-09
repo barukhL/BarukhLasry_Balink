@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* @font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./MyFont.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+ 
+
+/* @font-face {
+  font-family: 'Questa';
+  src: local('Questa'), url(./fonts/Questa_Regular_webfont.woff) format('woff');
+} */
+
+
+/* .text-container p
+{
+    font-size :18px;
+    font-family: 'Raleway', sans-serif;
+} */
+
+/* .font-link {
+  font-family: 'Raleway', sans-serif;
+} */
+
+
+@font-face {
+  font-family: "Raleway-ltalic";
+  src: local("Raleway-ltalic"),
+   url('./assets/fonts/Raleway/static/Raleway-Bold.ttf') format("truetype");
+  
+  }
+
+  
+@font-face {
+  font-family: "Raleway-ltalic";
+  src: local("Raleway-ltalic"),
+   url('./assets/fonts/Raleway/static/Raleway-BoldItalic.ttf') format("truetype");
+  
+  }
+
+    
+@font-face {
+  font-family: "AbrilFatface";
+  src: local("AbrilFatface"),
+   url('./assets/fonts/Raleway/static/Abril_Fatface/AbrilFatface-Regular.ttf') format("truetype");
+  
+  }
+  @font-face {
+    font-family: "Lobster";
+    src: local("Lobster"),
+     url('./assets/fonts/Raleway/static/Abril_Fatface/Lobster/Lobster-Regular.ttf') format("truetype");
+    
+    }
